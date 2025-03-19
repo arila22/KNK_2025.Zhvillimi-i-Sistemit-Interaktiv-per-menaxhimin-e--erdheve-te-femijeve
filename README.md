@@ -1,0 +1,1 @@
+# KNK_2025.Zhvillimi-i-Sistemit-Interaktiv-per-menaxhimin-e--erdheve-te-femijeve
