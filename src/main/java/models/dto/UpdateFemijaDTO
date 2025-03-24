@@ -1,0 +1,24 @@
+package models.dto;
+
+public class UpdateFemijaDTO {
+    private String adresa;
+    private String kontaktiPrindit;
+
+    public UpdateFemijaDTO(String adresa, String kontaktiPrindit) {
+        this.adresa = adresa;
+        this.kontaktiPrindit = kontaktiPrindit;
+    }
+    public String getAdresa() {
+        return adresa;
+    }
+    public void setAdresa(String adresa) {
+        this.adresa = adresa;
+    }
+
+    public String getKontaktiPrindit() {
+        return kontaktiPrindit;
+    }
+    public void setKontaktiPrindit(String kontaktiPrindit) {
+        this.kontaktiPrindit = kontaktiPrindit;
+    }
+}
