@@ -1,0 +1,49 @@
+package models.dto;
+
+public class UpdateGrupiDTO {
+
+    private String emriGrupit;
+    private int moshaMin;
+    private int moshaMax;
+    private int edukatoriID;
+
+    // Konstruktor
+    public UpdateGrupiDTO(String emriGrupit, int moshaMin, int moshaMax, int edukatoriID) {
+        this.emriGrupit = emriGrupit;
+        this.moshaMin = moshaMin;
+        this.moshaMax = moshaMax;
+        this.edukatoriID = edukatoriID;
+    }
+
+    // Getter dhe Setter për emrin e grupit
+    public String getEmriGrupit() {
+        return emriGrupit;
+    }
+    public void setEmriGrupit(String emriGrupit) {
+        this.emriGrupit = emriGrupit;
+    }
+
+    // Getter dhe Setter për moshen minimale
+    public int getMoshaMin() {
+        return moshaMin;
+    }
+    public void setMoshaMin(int moshaMin) {
+        this.moshaMin = moshaMin;
+    }
+
+    // Getter dhe Setter për moshen maksimale
+    public int getMoshaMax() {
+        return moshaMax;
+    }
+    public void setMoshaMax(int moshaMax) {
+        this.moshaMax = moshaMax;
+    }
+
+    // Getter dhe Setter për ID-në e edukatorit
+    public int getEdukatoriID() {
+        return edukatoriID;
+    }
+    public void setEdukatoriID(int edukatoriID) {
+        this.edukatoriID = edukatoriID;
+    }
+}
