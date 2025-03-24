@@ -1,0 +1,32 @@
+package models.dto;
+
+public class CreateGrupetDTO {
+
+    private String emriGrupit;
+    private int moshaMin;
+    private int moshaMax;
+    private int edukatoriID;
+
+    public CreateGrupetDTO(String emriGrupit, int moshaMin, int moshaMax, int edukatoriID) {
+        this.emriGrupit = emriGrupit;
+        this.moshaMin = moshaMin;
+        this.moshaMax = moshaMax;
+        this.edukatoriID = edukatoriID;
+    }
+
+    public String getEmriGrupit() {
+        return emriGrupit;
+    }
+
+    public int getMoshaMin() {
+        return moshaMin;
+    }
+
+    public int getMoshaMax() {
+        return moshaMax;
+    }
+
+    public int getEdukatoriID() {
+        return edukatoriID;
+    }
+}
